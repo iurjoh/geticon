@@ -1,3 +1,25 @@
+# Get Icon repository record
+
+[Português (Brasil)](README.pt-BR.md)
+
+## Status, process and architecture
+
+Copy of [get-icon/geticon](https://github.com/get-icon/geticon), reviewed on 2026-10-01. This is upstream material, not an original project by Iuri. Preserve the catalogue and contributor credits below. Its counts and future plans are historical upstream statements, not verified current counts or this owner's roadmap.
+
+index.js reads settings.json, icons.json and input.txt in Node or Deno, resolves case-insensitive names/IDs/aliases and writes templated Markdown/HTML to the configured output file. Unknown names are logged and skipped. The default output is output.md with 21px icons linked to upstream assets. There is no new dashboard design or dated personal process record in the reviewed files.
+
+## Verification and safe use
+
+The upstream usage instructions remain below. No install, generator, maintenance checks or tests were run during this documentation update. package.json has maintenance/check commands but no dedicated test script. Review output paths before running: the generator writes the configured file. Verify aliases, unknown input, blank lines, template escaping and actual SVG rendering. Do not imply partnership or endorsement through logo use.
+
+## Snapshots and licensing
+
+Existing upstream examples/preview remain unchanged; they are not dated captures made in this update. Future evidence belongs in docs/assets/ with dates and real input/output. Original licenses remain: SVG code CC0, scripts MIT with Tom Chen's copyright, and separate design/trademark rights. The manifest's MIT declaration does not relicense the whole icon collection. No license was changed.
+
+---
+
+## Upstream README (preserved)
+
 # Get Icon
 
 [![License](https://img.shields.io/github/license/get-icon/geticon)](https://github.com/get-icon/geticon/blob/master/LICENSE "License")
